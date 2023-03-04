@@ -102,7 +102,7 @@ public class MainActivity2 extends AppCompatActivity implements UserAdapter.Item
 
     @Override
     public void onItemClick(int position, String id) {
-    Delete();
+    Delete(items.get(position));
     }
 
     @Override
